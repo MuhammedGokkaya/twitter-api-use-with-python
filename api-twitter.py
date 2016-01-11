@@ -62,43 +62,43 @@ while True:
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Gün:Pazar---Tarih:%d/%m/%y")) 
-					client = Client("as4uDZRvKuPF1F1K9AP7Ntc2CXgM6w").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)
 				if time.strftime("%A")=="Monday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Day:Pazartesi---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 				if time.strftime("%A")=="Tuesday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Day:Salı---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 				if time.strftime("%A")=="Wednesday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Gün:Çarşamba---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 				if time.strftime("%A")=="Thursday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Gün:Perşembe---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 				if time.strftime("%A")=="Friday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Gün:Cuma---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 				if time.strftime("%A")=="Saturday" :
 
 					print time.strftime("...Mesaj gönderiliyor...")
 					twitter.update_status(status=time.strftime("SAAT:%H:%M---Gün:Cumartesi---Tarih:%d/%m/%y")) 
-					client = Client("udjmic1Vu1YobhEK9sZD4bLBbHLRTw").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
+					client = Client("pushover-api key").send_message(strftime("SAAT:%H:%M mesaj gönderildi..."),title="Twitter Botu Hakkında")
 					time.sleep(900)	
 			else :
 				pass
